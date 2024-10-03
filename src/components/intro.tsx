@@ -22,7 +22,7 @@ const Intro: React.FC = () => {
         <div className="container w-1/3 h-full">
           <img
             src={me}
-            alt="Profile Photo"
+            alt="Profile"
             className="overflow-hidden rounded-full flex justify-center items-center h-1/2 w-1/2"
           />
         </div>
@@ -30,7 +30,7 @@ const Intro: React.FC = () => {
       <div className="containerflex-row flex w-auto justify-center items-center gap-x-10">
         <div className="w-auto h-[50px]">
           <a href="https://github.com/SimranNadaf" target="_blank"  className="w-auto h-[50px]" >
-            <img src={github} className="h-full w-auto"/>
+            <img src={github} alt="github" className="h-full w-auto"/>
           </a>
         </div>
         <div className="w-auto h-[50px]">
@@ -38,12 +38,12 @@ const Intro: React.FC = () => {
             href="https://www.linkedin.com/in/simran-nadaf-26691b219/"
             target="_blank"
           >
-            <img src={linkedin} className="h-full w-auto"/>
+            <img src={linkedin} alt="linkedin" className="h-full w-auto"/>
           </a>
         </div>
         <div className="w-auto h-[32px]">
           <a href="https://leetcode.com/u/SimranNadaf/" target="_blank">
-            <img src={leetcode} className="h-full w-auto"/>
+            <img src={leetcode} alt="leetcode" className="h-full w-auto"/>
           </a>
         </div>
       </div>
