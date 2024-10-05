@@ -4,7 +4,7 @@ import byte from "../../assets/byteridge.png";
 
 const Education: React.FC = () => {
   return (
-    <div className="text-left font-bold text-black text-4xl m-16 h-[600px] ">
+    <div className="text-left font-bold text-black text-4xl m-16 h-[600px]">
         <h1>Education</h1>
 		<div className="flex flex-row justify-center items-center h-full my-10">
 		{/*<div className="flex flex-col justify-center items-center h-full mt-10">

@@ -1,4 +1,5 @@
 import AboutUs from "./components/aboutUs";
+import Education from "./components/education";
 import Experience from "./components/experience";
 import Footer from "./components/footer";
 import Intro from "./components/intro";
@@ -12,11 +13,12 @@ function App() {
       <Navbar />
       <Intro />
       <AboutUs />
-	  <Experience/>
-	  <Projects/>
-	  <Skills/>
-	  <ContactUs/>
-	  <Footer/>
+      <Education />
+      <Experience />
+      <Projects />
+      <Skills />
+      <ContactUs />
+      <Footer />
     </>
   );
 }

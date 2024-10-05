@@ -6,7 +6,7 @@ const ProjectsFlutter: React.FC = () =>{
 		<div className="text-left font-semibold text-black text-2xl pt-2 pl-2">
             <h1>Flutter</h1>
             <div className="flex flex-row">
-              <div className="container bg-flutter rounded-xl m-5 p-2 w-1/3 h-auto">
+              <div className="container hover:bg-black hover:text-white m-5 p-2 w-1/3 h-auto">
                 <video className="w-auto h-auto" autoPlay>
                   <source src={pro} type="video/mp4" />
                 </video>
